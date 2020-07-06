@@ -33,13 +33,13 @@ library(here)
 
 ### Load the msms.txt file ####
 
-msms <- read.delim(file = here::here("GBM_test_files/msms-loose-gbm.txt"),
+msms <- read.delim(file = here::here("msms.txt"),
                    sep = "\t",
                    stringsAsFactors = FALSE)
 
 ### Load evidence file ####
 
-evidence <- read.delim(file = here::here("GBM_test_files/evidence-loose-gbm.txt"),
+evidence <- read.delim(file = here::here("evidence.txt"),
                        sep = "\t",
                        stringsAsFactors = FALSE)
 
